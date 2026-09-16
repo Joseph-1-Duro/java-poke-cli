@@ -1,0 +1,2955 @@
+[
+  {
+    "name": "Venusaur",
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "maxHp": 236,
+    "att": 149,
+    "def": 91,
+    "spd": 145,
+    "moves": [
+      {
+        "name": "Razor Leaf",
+        "maxPP": 25,
+        "basePower": 55,
+        "type": "GRASS"
+      },
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      },
+      {
+        "name": "Giga Drain",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "GRASS"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Charizard",
+    "type": [
+      "FIRE",
+      "FLYING"
+    ],
+    "maxHp": 221,
+    "att": 105,
+    "def": 163,
+    "spd": 139,
+    "moves": [
+      {
+        "name": "Flamethrower",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "FIRE"
+      },
+      {
+        "name": "Wing Attack",
+        "maxPP": 35,
+        "basePower": 60,
+        "type": "FLYING"
+      },
+      {
+        "name": "Dragon Breath",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "DRAGON"
+      },
+      {
+        "name": "Slash",
+        "maxPP": 20,
+        "basePower": 70,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Blastoise",
+    "type": [
+      "WATER"
+    ],
+    "maxHp": 185,
+    "att": 99,
+    "def": 107,
+    "spd": 113,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Bite",
+        "maxPP": 25,
+        "basePower": 60,
+        "type": "DARK"
+      },
+      {
+        "name": "Rapid Spin",
+        "maxPP": 40,
+        "basePower": 50,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Butterfree",
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "maxHp": 243,
+    "att": 138,
+    "def": 148,
+    "spd": 85,
+    "moves": [
+      {
+        "name": "Bug Bite",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "BUG"
+      },
+      {
+        "name": "Gust",
+        "maxPP": 35,
+        "basePower": 40,
+        "type": "FLYING"
+      },
+      {
+        "name": "Psybeam",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Swift",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Beedrill",
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "maxHp": 155,
+    "att": 164,
+    "def": 109,
+    "spd": 107,
+    "moves": [
+      {
+        "name": "Twineedle",
+        "maxPP": 20,
+        "basePower": 25,
+        "type": "BUG"
+      },
+      {
+        "name": "Poison Jab",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "POISON"
+      },
+      {
+        "name": "X-Scissor",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "BUG"
+      },
+      {
+        "name": "Pursuit",
+        "maxPP": 20,
+        "basePower": 40,
+        "type": "DARK"
+      }
+    ]
+  },
+  {
+    "name": "Pidgeot",
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "maxHp": 197,
+    "att": 125,
+    "def": 106,
+    "spd": 104,
+    "moves": [
+      {
+        "name": "Wing Attack",
+        "maxPP": 35,
+        "basePower": 60,
+        "type": "FLYING"
+      },
+      {
+        "name": "Aerial Ace",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "FLYING"
+      },
+      {
+        "name": "Quick Attack",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Hurricane",
+        "maxPP": 10,
+        "basePower": 110,
+        "type": "FLYING"
+      }
+    ]
+  },
+  {
+    "name": "Raticate",
+    "type": [
+      "NORMAL"
+    ],
+    "maxHp": 243,
+    "att": 111,
+    "def": 100,
+    "spd": 129,
+    "moves": [
+      {
+        "name": "Quick Attack",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Hyper Fang",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Fearow",
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "maxHp": 257,
+    "att": 87,
+    "def": 109,
+    "spd": 74,
+    "moves": [
+      {
+        "name": "Drill Peck",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "FLYING"
+      },
+      {
+        "name": "Aerial Ace",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "FLYING"
+      },
+      {
+        "name": "Quick Attack",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Fury Attack",
+        "maxPP": 20,
+        "basePower": 15,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Arbok",
+    "type": [
+      "POISON"
+    ],
+    "maxHp": 177,
+    "att": 152,
+    "def": 120,
+    "spd": 97,
+    "moves": [
+      {
+        "name": "Poison Jab",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "POISON"
+      },
+      {
+        "name": "Cross Poison",
+        "maxPP": 20,
+        "basePower": 70,
+        "type": "POISON"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      }
+    ]
+  },
+  {
+    "name": "Raichu",
+    "type": [
+      "ELECTRIC"
+    ],
+    "maxHp": 168,
+    "att": 113,
+    "def": 97,
+    "spd": 101,
+    "moves": [
+      {
+        "name": "Thunderbolt",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Volt Tackle",
+        "maxPP": 15,
+        "basePower": 120,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Iron Tail",
+        "maxPP": 15,
+        "basePower": 100,
+        "type": "STEEL"
+      },
+      {
+        "name": "Quick Attack",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Sandslash",
+    "type": [
+      "GROUND"
+    ],
+    "maxHp": 224,
+    "att": 131,
+    "def": 126,
+    "spd": 98,
+    "moves": [
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Slash",
+        "maxPP": 20,
+        "basePower": 70,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Poison Jab",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "POISON"
+      },
+      {
+        "name": "Sand Tomb",
+        "maxPP": 15,
+        "basePower": 35,
+        "type": "GROUND"
+      }
+    ]
+  },
+  {
+    "name": "Nidoqueen",
+    "type": [
+      "POISON",
+      "GROUND"
+    ],
+    "maxHp": 230,
+    "att": 100,
+    "def": 134,
+    "spd": 146,
+    "moves": [
+      {
+        "name": "Earth Power",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "GROUND"
+      },
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Poison Jab",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "POISON"
+      }
+    ]
+  },
+  {
+    "name": "Nidoking",
+    "type": [
+      "POISON",
+      "GROUND"
+    ],
+    "maxHp": 237,
+    "att": 94,
+    "def": 148,
+    "spd": 104,
+    "moves": [
+      {
+        "name": "Earth Power",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "GROUND"
+      },
+      {
+        "name": "Poison Jab",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "POISON"
+      },
+      {
+        "name": "Megahorn",
+        "maxPP": 10,
+        "basePower": 120,
+        "type": "BUG"
+      },
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      }
+    ]
+  },
+  {
+    "name": "Clefable",
+    "type": [
+      "FAIRY"
+    ],
+    "maxHp": 205,
+    "att": 100,
+    "def": 138,
+    "spd": 70,
+    "moves": [
+      {
+        "name": "Moonblast",
+        "maxPP": 15,
+        "basePower": 95,
+        "type": "FAIRY"
+      },
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Play Rough",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "FAIRY"
+      }
+    ]
+  },
+  {
+    "name": "Ninetales",
+    "type": [
+      "FIRE"
+    ],
+    "maxHp": 214,
+    "att": 93,
+    "def": 160,
+    "spd": 108,
+    "moves": [
+      {
+        "name": "Flamethrower",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "FIRE"
+      },
+      {
+        "name": "Heat Wave",
+        "maxPP": 10,
+        "basePower": 95,
+        "type": "FIRE"
+      },
+      {
+        "name": "Quick Attack",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Iron Tail",
+        "maxPP": 15,
+        "basePower": 100,
+        "type": "STEEL"
+      }
+    ]
+  },
+  {
+    "name": "Wigglytuff",
+    "type": [
+      "NORMAL",
+      "FAIRY"
+    ],
+    "maxHp": 197,
+    "att": 100,
+    "def": 149,
+    "spd": 137,
+    "moves": [
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Play Rough",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "FAIRY"
+      },
+      {
+        "name": "Thunderbolt",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Hyper Beam",
+        "maxPP": 5,
+        "basePower": 150,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Victreebel",
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "maxHp": 186,
+    "att": 134,
+    "def": 151,
+    "spd": 132,
+    "moves": [
+      {
+        "name": "Razor Leaf",
+        "maxPP": 25,
+        "basePower": 55,
+        "type": "GRASS"
+      },
+      {
+        "name": "Giga Drain",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "GRASS"
+      },
+      {
+        "name": "Poison Jab",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "POISON"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Tentacruel",
+    "type": [
+      "WATER",
+      "POISON"
+    ],
+    "maxHp": 157,
+    "att": 154,
+    "def": 149,
+    "spd": 77,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      },
+      {
+        "name": "Scald",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "WATER"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      }
+    ]
+  },
+  {
+    "name": "Golem",
+    "type": [
+      "ROCK",
+      "GROUND"
+    ],
+    "maxHp": 170,
+    "att": 87,
+    "def": 145,
+    "spd": 80,
+    "moves": [
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Stone Edge",
+        "maxPP": 5,
+        "basePower": 100,
+        "type": "ROCK"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      },
+      {
+        "name": "Fire Punch",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "FIRE"
+      }
+    ]
+  },
+  {
+    "name": "Persian",
+    "type": [
+      "NORMAL"
+    ],
+    "maxHp": 150,
+    "att": 89,
+    "def": 160,
+    "spd": 77,
+    "moves": [
+      {
+        "name": "Slash",
+        "maxPP": 20,
+        "basePower": 70,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Bite",
+        "maxPP": 25,
+        "basePower": 60,
+        "type": "DARK"
+      },
+      {
+        "name": "Play Rough",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "FAIRY"
+      },
+      {
+        "name": "Swift",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Golduck",
+    "type": [
+      "WATER"
+    ],
+    "maxHp": 159,
+    "att": 145,
+    "def": 110,
+    "spd": 105,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Brick Break",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "FIGHTING"
+      }
+    ]
+  },
+  {
+    "name": "Primeape",
+    "type": [
+      "FIGHTING"
+    ],
+    "maxHp": 166,
+    "att": 153,
+    "def": 153,
+    "spd": 130,
+    "moves": [
+      {
+        "name": "Cross Chop",
+        "maxPP": 5,
+        "basePower": 100,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Submission",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Brick Break",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Alakazam",
+    "type": [
+      "PSYCHIC"
+    ],
+    "maxHp": 209,
+    "att": 111,
+    "def": 89,
+    "spd": 126,
+    "moves": [
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Psybeam",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Energy Ball",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "GRASS"
+      },
+      {
+        "name": "Shadow Ball",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "GHOST"
+      }
+    ]
+  },
+  {
+    "name": "Machamp",
+    "type": [
+      "FIGHTING"
+    ],
+    "maxHp": 202,
+    "att": 142,
+    "def": 141,
+    "spd": 97,
+    "moves": [
+      {
+        "name": "Cross Chop",
+        "maxPP": 5,
+        "basePower": 100,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Submission",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Vital Throw",
+        "maxPP": 10,
+        "basePower": 70,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      }
+    ]
+  },
+  {
+    "name": "Arcanine",
+    "type": [
+      "FIRE"
+    ],
+    "maxHp": 162,
+    "att": 92,
+    "def": 164,
+    "spd": 125,
+    "moves": [
+      {
+        "name": "Extreme Speed",
+        "maxPP": 5,
+        "basePower": 80,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Flamethrower",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "FIRE"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Iron Head",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "STEEL"
+      }
+    ]
+  },
+  {
+    "name": "Poliwrath",
+    "type": [
+      "WATER",
+      "FIGHTING"
+    ],
+    "maxHp": 201,
+    "att": 123,
+    "def": 93,
+    "spd": 101,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Cross Chop",
+        "maxPP": 5,
+        "basePower": 100,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Venomoth",
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "maxHp": 235,
+    "att": 163,
+    "def": 127,
+    "spd": 126,
+    "moves": [
+      {
+        "name": "Bug Buzz",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "BUG"
+      },
+      {
+        "name": "Psybeam",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      },
+      {
+        "name": "Gust",
+        "maxPP": 35,
+        "basePower": 40,
+        "type": "FLYING"
+      }
+    ]
+  },
+  {
+    "name": "Dugtrio",
+    "type": [
+      "GROUND"
+    ],
+    "maxHp": 178,
+    "att": 88,
+    "def": 123,
+    "spd": 72,
+    "moves": [
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Dig",
+        "maxPP": 10,
+        "basePower": 80,
+        "type": "GROUND"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      },
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      }
+    ]
+  },
+  {
+    "name": "Hypno",
+    "type": [
+      "PSYCHIC"
+    ],
+    "maxHp": 150,
+    "att": 122,
+    "def": 96,
+    "spd": 103,
+    "moves": [
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Psybeam",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Dream Eater",
+        "maxPP": 15,
+        "basePower": 100,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Headbutt",
+        "maxPP": 25,
+        "basePower": 70,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Kingler",
+    "type": [
+      "WATER"
+    ],
+    "maxHp": 221,
+    "att": 81,
+    "def": 94,
+    "spd": 79,
+    "moves": [
+      {
+        "name": "Crabhammer",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "WATER"
+      },
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "X-Scissor",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "BUG"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Electrode",
+    "type": [
+      "ELECTRIC"
+    ],
+    "maxHp": 256,
+    "att": 127,
+    "def": 154,
+    "spd": 140,
+    "moves": [
+      {
+        "name": "Thunderbolt",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Discharge",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Swift",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Rollout",
+        "maxPP": 20,
+        "basePower": 30,
+        "type": "ROCK"
+      }
+    ]
+  },
+  {
+    "name": "Exeggutor",
+    "type": [
+      "GRASS",
+      "PSYCHIC"
+    ],
+    "maxHp": 189,
+    "att": 126,
+    "def": 85,
+    "spd": 115,
+    "moves": [
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Egg Bomb",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Wood Hammer",
+        "maxPP": 15,
+        "basePower": 120,
+        "type": "GRASS"
+      },
+      {
+        "name": "Giga Drain",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "GRASS"
+      }
+    ]
+  },
+  {
+    "name": "Marowak",
+    "type": [
+      "GROUND"
+    ],
+    "maxHp": 249,
+    "att": 151,
+    "def": 132,
+    "spd": 149,
+    "moves": [
+      {
+        "name": "Bonemerang",
+        "maxPP": 10,
+        "basePower": 50,
+        "type": "GROUND"
+      },
+      {
+        "name": "Bone Club",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "GROUND"
+      },
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      }
+    ]
+  },
+  {
+    "name": "Hitmontop",
+    "type": [
+      "FIGHTING"
+    ],
+    "maxHp": 244,
+    "att": 121,
+    "def": 157,
+    "spd": 102,
+    "moves": [
+      {
+        "name": "Close Combat",
+        "maxPP": 5,
+        "basePower": 120,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Brick Break",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Rapid Spin",
+        "maxPP": 40,
+        "basePower": 50,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Aerial Ace",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "FLYING"
+      }
+    ]
+  },
+  {
+    "name": "Weezing",
+    "type": [
+      "POISON"
+    ],
+    "maxHp": 154,
+    "att": 140,
+    "def": 108,
+    "spd": 95,
+    "moves": [
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      },
+      {
+        "name": "Poison Jab",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "POISON"
+      },
+      {
+        "name": "Flamethrower",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "FIRE"
+      },
+      {
+        "name": "Shadow Ball",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "GHOST"
+      }
+    ]
+  },
+  {
+    "name": "Rhydon",
+    "type": [
+      "GROUND",
+      "ROCK"
+    ],
+    "maxHp": 178,
+    "att": 83,
+    "def": 164,
+    "spd": 94,
+    "moves": [
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Stone Edge",
+        "maxPP": 5,
+        "basePower": 100,
+        "type": "ROCK"
+      },
+      {
+        "name": "Megahorn",
+        "maxPP": 10,
+        "basePower": 120,
+        "type": "BUG"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      }
+    ]
+  },
+  {
+    "name": "Chansey",
+    "type": [
+      "NORMAL"
+    ],
+    "maxHp": 201,
+    "att": 122,
+    "def": 115,
+    "spd": 78,
+    "moves": [
+      {
+        "name": "Egg Bomb",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Swift",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Disarming Voice",
+        "maxPP": 15,
+        "basePower": 40,
+        "type": "FAIRY"
+      }
+    ]
+  },
+  {
+    "name": "Tangela",
+    "type": [
+      "GRASS"
+    ],
+    "maxHp": 248,
+    "att": 115,
+    "def": 124,
+    "spd": 135,
+    "moves": [
+      {
+        "name": "Giga Drain",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "GRASS"
+      },
+      {
+        "name": "Razor Leaf",
+        "maxPP": 25,
+        "basePower": 55,
+        "type": "GRASS"
+      },
+      {
+        "name": "Sludge Bomb",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "POISON"
+      },
+      {
+        "name": "Ancient Power",
+        "maxPP": 5,
+        "basePower": 60,
+        "type": "ROCK"
+      }
+    ]
+  },
+  {
+    "name": "Kangaskhan",
+    "type": [
+      "NORMAL"
+    ],
+    "maxHp": 201,
+    "att": 148,
+    "def": 122,
+    "spd": 73,
+    "moves": [
+      {
+        "name": "Dizzy Punch",
+        "maxPP": 10,
+        "basePower": 70,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      }
+    ]
+  },
+  {
+    "name": "Seadra",
+    "type": [
+      "WATER"
+    ],
+    "maxHp": 154,
+    "att": 93,
+    "def": 156,
+    "spd": 125,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Dragon Pulse",
+        "maxPP": 10,
+        "basePower": 85,
+        "type": "DRAGON"
+      },
+      {
+        "name": "Twister",
+        "maxPP": 20,
+        "basePower": 40,
+        "type": "DRAGON"
+      }
+    ]
+  },
+  {
+    "name": "Seaking",
+    "type": [
+      "WATER"
+    ],
+    "maxHp": 164,
+    "att": 129,
+    "def": 153,
+    "spd": 94,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Megahorn",
+        "maxPP": 10,
+        "basePower": 120,
+        "type": "BUG"
+      },
+      {
+        "name": "Horn Attack",
+        "maxPP": 25,
+        "basePower": 55,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Waterfall",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "WATER"
+      }
+    ]
+  },
+  {
+    "name": "Starmie",
+    "type": [
+      "WATER",
+      "PSYCHIC"
+    ],
+    "maxHp": 216,
+    "att": 148,
+    "def": 165,
+    "spd": 95,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Thunderbolt",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "ELECTRIC"
+      }
+    ]
+  },
+  {
+    "name": "Mr. Mime",
+    "type": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "maxHp": 126,
+    "att": 95,
+    "def": 48,
+    "spd": 82,
+    "moves": [
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Dazzling Gleam",
+        "maxPP": 10,
+        "basePower": 80,
+        "type": "FAIRY"
+      },
+      {
+        "name": "Psybeam",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Zen Headbutt",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "PSYCHIC"
+      }
+    ]
+  },
+  {
+    "name": "Scizor",
+    "type": [
+      "BUG",
+      "STEEL"
+    ],
+    "maxHp": 163,
+    "att": 81,
+    "def": 153,
+    "spd": 106,
+    "moves": [
+      {
+        "name": "X-Scissor",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "BUG"
+      },
+      {
+        "name": "Iron Head",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "STEEL"
+      },
+      {
+        "name": "Bullet Punch",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "STEEL"
+      },
+      {
+        "name": "Night Slash",
+        "maxPP": 15,
+        "basePower": 70,
+        "type": "DARK"
+      }
+    ]
+  },
+  {
+    "name": "Jynx",
+    "type": [
+      "ICE",
+      "PSYCHIC"
+    ],
+    "maxHp": 242,
+    "att": 118,
+    "def": 144,
+    "spd": 109,
+    "moves": [
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Dream Eater",
+        "maxPP": 15,
+        "basePower": 100,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Magmar",
+    "type": [
+      "FIRE"
+    ],
+    "maxHp": 239,
+    "att": 117,
+    "def": 150,
+    "spd": 86,
+    "moves": [
+      {
+        "name": "Flamethrower",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "FIRE"
+      },
+      {
+        "name": "Fire Punch",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "FIRE"
+      },
+      {
+        "name": "Thunder Punch",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Psybeam",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "PSYCHIC"
+      }
+    ]
+  },
+  {
+    "name": "Pinsir",
+    "type": [
+      "BUG"
+    ],
+    "maxHp": 174,
+    "att": 133,
+    "def": 165,
+    "spd": 118,
+    "moves": [
+      {
+        "name": "X-Scissor",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "BUG"
+      },
+      {
+        "name": "Submission",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      }
+    ]
+  },
+  {
+    "name": "Gyarados",
+    "type": [
+      "WATER",
+      "FLYING"
+    ],
+    "maxHp": 188,
+    "att": 116,
+    "def": 106,
+    "spd": 125,
+    "moves": [
+      {
+        "name": "Waterfall",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "WATER"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Ice Fang",
+        "maxPP": 15,
+        "basePower": 65,
+        "type": "ICE"
+      },
+      {
+        "name": "Aqua Tail",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "WATER"
+      }
+    ]
+  },
+  {
+    "name": "Lapras",
+    "type": [
+      "WATER",
+      "ICE"
+    ],
+    "maxHp": 250,
+    "att": 154,
+    "def": 157,
+    "spd": 111,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Hydro Pump",
+        "maxPP": 5,
+        "basePower": 110,
+        "type": "WATER"
+      }
+    ]
+  },
+  {
+    "name": "Ditto",
+    "type": [
+      "NORMAL"
+    ],
+    "maxHp": 139,
+    "att": 96,
+    "def": 96,
+    "spd": 67,
+    "moves": [
+      {
+        "name": "Struggle",
+        "maxPP": 5,
+        "basePower": 50,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Tackle",
+        "maxPP": 35,
+        "basePower": 40,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Scratch",
+        "maxPP": 35,
+        "basePower": 40,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Headbutt",
+        "maxPP": 25,
+        "basePower": 70,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Vaporeon",
+    "type": [
+      "WATER"
+    ],
+    "maxHp": 186,
+    "att": 145,
+    "def": 164,
+    "spd": 149,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Hydro Pump",
+        "maxPP": 5,
+        "basePower": 110,
+        "type": "WATER"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Shadow Ball",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "GHOST"
+      }
+    ]
+  },
+  {
+    "name": "Jolteon",
+    "type": [
+      "ELECTRIC"
+    ],
+    "maxHp": 192,
+    "att": 91,
+    "def": 110,
+    "spd": 109,
+    "moves": [
+      {
+        "name": "Thunderbolt",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Thunder",
+        "maxPP": 10,
+        "basePower": 110,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Pin Missile",
+        "maxPP": 20,
+        "basePower": 25,
+        "type": "BUG"
+      },
+      {
+        "name": "Quick Attack",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Flareon",
+    "type": [
+      "FIRE"
+    ],
+    "maxHp": 178,
+    "att": 105,
+    "def": 98,
+    "spd": 73,
+    "moves": [
+      {
+        "name": "Flamethrower",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "FIRE"
+      },
+      {
+        "name": "Fire Fang",
+        "maxPP": 15,
+        "basePower": 65,
+        "type": "FIRE"
+      },
+      {
+        "name": "Bite",
+        "maxPP": 25,
+        "basePower": 60,
+        "type": "DARK"
+      },
+      {
+        "name": "Quick Attack",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Porygon",
+    "type": [
+      "NORMAL"
+    ],
+    "maxHp": 155,
+    "att": 111,
+    "def": 140,
+    "spd": 148,
+    "moves": [
+      {
+        "name": "Tri Attack",
+        "maxPP": 10,
+        "basePower": 80,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Psybeam",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Shock Wave",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Swift",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Omastar",
+    "type": [
+      "ROCK",
+      "WATER"
+    ],
+    "maxHp": 230,
+    "att": 153,
+    "def": 104,
+    "spd": 119,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Ancient Power",
+        "maxPP": 5,
+        "basePower": 60,
+        "type": "ROCK"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      },
+      {
+        "name": "Mud Shot",
+        "maxPP": 15,
+        "basePower": 55,
+        "type": "GROUND"
+      }
+    ]
+  },
+  {
+    "name": "Kabutops",
+    "type": [
+      "ROCK",
+      "WATER"
+    ],
+    "maxHp": 233,
+    "att": 80,
+    "def": 93,
+    "spd": 124,
+    "moves": [
+      {
+        "name": "Aqua Jet",
+        "maxPP": 20,
+        "basePower": 40,
+        "type": "WATER"
+      },
+      {
+        "name": "Stone Edge",
+        "maxPP": 5,
+        "basePower": 100,
+        "type": "ROCK"
+      },
+      {
+        "name": "Slash",
+        "maxPP": 20,
+        "basePower": 70,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      }
+    ]
+  },
+  {
+    "name": "Aerodactyl",
+    "type": [
+      "ROCK",
+      "FLYING"
+    ],
+    "maxHp": 178,
+    "att": 102,
+    "def": 146,
+    "spd": 129,
+    "moves": [
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      },
+      {
+        "name": "Iron Head",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "STEEL"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Aerial Ace",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "FLYING"
+      }
+    ]
+  },
+  {
+    "name": "Snorlax",
+    "type": [
+      "NORMAL"
+    ],
+    "maxHp": 156,
+    "att": 151,
+    "def": 111,
+    "spd": 85,
+    "moves": [
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Hyper Beam",
+        "maxPP": 5,
+        "basePower": 150,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      }
+    ]
+  },
+  {
+    "name": "Articuno",
+    "type": [
+      "ICE",
+      "FLYING"
+    ],
+    "maxHp": 316,
+    "att": 147,
+    "def": 189,
+    "spd": 197,
+    "moves": [
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Blizzard",
+        "maxPP": 5,
+        "basePower": 110,
+        "type": "ICE"
+      },
+      {
+        "name": "Hurricane",
+        "maxPP": 10,
+        "basePower": 110,
+        "type": "FLYING"
+      },
+      {
+        "name": "Icy Wind",
+        "maxPP": 15,
+        "basePower": 55,
+        "type": "ICE"
+      }
+    ]
+  },
+  {
+    "name": "Zapdos",
+    "type": [
+      "ELECTRIC",
+      "FLYING"
+    ],
+    "maxHp": 343,
+    "att": 170,
+    "def": 186,
+    "spd": 194,
+    "moves": [
+      {
+        "name": "Thunderbolt",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Zap Cannon",
+        "maxPP": 5,
+        "basePower": 120,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Hurricane",
+        "maxPP": 10,
+        "basePower": 110,
+        "type": "FLYING"
+      },
+      {
+        "name": "Drill Peck",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "FLYING"
+      }
+    ]
+  },
+  {
+    "name": "Moltres",
+    "type": [
+      "FIRE",
+      "FLYING"
+    ],
+    "maxHp": 309,
+    "att": 200,
+    "def": 187,
+    "spd": 150,
+    "moves": [
+      {
+        "name": "Flamethrower",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "FIRE"
+      },
+      {
+        "name": "Fire Blast",
+        "maxPP": 5,
+        "basePower": 110,
+        "type": "FIRE"
+      },
+      {
+        "name": "Hurricane",
+        "maxPP": 10,
+        "basePower": 110,
+        "type": "FLYING"
+      },
+      {
+        "name": "Sky Attack",
+        "maxPP": 5,
+        "basePower": 140,
+        "type": "FLYING"
+      }
+    ]
+  },
+  {
+    "name": "Dragonite",
+    "type": [
+      "DRAGON",
+      "FLYING"
+    ],
+    "maxHp": 242,
+    "att": 160,
+    "def": 135,
+    "spd": 117,
+    "moves": [
+      {
+        "name": "Dragon Claw",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DRAGON"
+      },
+      {
+        "name": "Hurricane",
+        "maxPP": 10,
+        "basePower": 110,
+        "type": "FLYING"
+      },
+      {
+        "name": "Extreme Speed",
+        "maxPP": 5,
+        "basePower": 80,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Fire Punch",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "FIRE"
+      }
+    ]
+  },
+  {
+    "name": "Mewtwo",
+    "type": [
+      "PSYCHIC"
+    ],
+    "maxHp": 312,
+    "att": 139,
+    "def": 166,
+    "spd": 160,
+    "moves": [
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Thunderbolt",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Aura Sphere",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "FIGHTING"
+      }
+    ]
+  },
+  {
+    "name": "Mew",
+    "type": [
+      "PSYCHIC"
+    ],
+    "maxHp": 269,
+    "att": 172,
+    "def": 170,
+    "spd": 199,
+    "moves": [
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Aura Sphere",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "FIGHTING"
+      },
+      {
+        "name": "Dark Pulse",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Moonblast",
+        "maxPP": 15,
+        "basePower": 95,
+        "type": "FAIRY"
+      }
+    ]
+  },
+  {
+    "name": "Meganium",
+    "type": [
+      "GRASS"
+    ],
+    "maxHp": 203,
+    "att": 132,
+    "def": 122,
+    "spd": 139,
+    "moves": [
+      {
+        "name": "Petal Dance",
+        "maxPP": 10,
+        "basePower": 120,
+        "type": "GRASS"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Earth Power",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "GROUND"
+      },
+      {
+        "name": "Razor Leaf",
+        "maxPP": 25,
+        "basePower": 55,
+        "type": "GRASS"
+      }
+    ]
+  },
+  {
+    "name": "Typhlosion",
+    "type": [
+      "FIRE"
+    ],
+    "maxHp": 211,
+    "att": 80,
+    "def": 125,
+    "spd": 108,
+    "moves": [
+      {
+        "name": "Eruption",
+        "maxPP": 5,
+        "basePower": 150,
+        "type": "FIRE"
+      },
+      {
+        "name": "Flamethrower",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "FIRE"
+      },
+      {
+        "name": "Thunder Punch",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Swift",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Feraligatr",
+    "type": [
+      "WATER"
+    ],
+    "maxHp": 178,
+    "att": 114,
+    "def": 135,
+    "spd": 132,
+    "moves": [
+      {
+        "name": "Waterfall",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "WATER"
+      },
+      {
+        "name": "Ice Punch",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "ICE"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      }
+    ]
+  },
+  {
+    "name": "Xatu",
+    "type": [
+      "PSYCHIC",
+      "FLYING"
+    ],
+    "maxHp": 223,
+    "att": 128,
+    "def": 130,
+    "spd": 95,
+    "moves": [
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Air Slash",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "FLYING"
+      },
+      {
+        "name": "Future Sight",
+        "maxPP": 10,
+        "basePower": 120,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Hurricane",
+        "maxPP": 10,
+        "basePower": 110,
+        "type": "FLYING"
+      }
+    ]
+  },
+  {
+    "name": "Ampharos",
+    "type": [
+      "ELECTRIC"
+    ],
+    "maxHp": 218,
+    "att": 134,
+    "def": 164,
+    "spd": 117,
+    "moves": [
+      {
+        "name": "Thunderbolt",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Power Gem",
+        "maxPP": 10,
+        "basePower": 80,
+        "type": "ROCK"
+      },
+      {
+        "name": "Discharge",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "ELECTRIC"
+      },
+      {
+        "name": "Dragon Pulse",
+        "maxPP": 10,
+        "basePower": 85,
+        "type": "DRAGON"
+      }
+    ]
+  },
+  {
+    "name": "Bellossom",
+    "type": [
+      "GRASS"
+    ],
+    "maxHp": 158,
+    "att": 144,
+    "def": 162,
+    "spd": 113,
+    "moves": [
+      {
+        "name": "Petal Dance",
+        "maxPP": 10,
+        "basePower": 120,
+        "type": "GRASS"
+      },
+      {
+        "name": "Giga Drain",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "GRASS"
+      },
+      {
+        "name": "Seed Bomb",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "GRASS"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Azumarill",
+    "type": [
+      "WATER",
+      "FAIRY"
+    ],
+    "maxHp": 205,
+    "att": 126,
+    "def": 161,
+    "spd": 128,
+    "moves": [
+      {
+        "name": "Play Rough",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "FAIRY"
+      },
+      {
+        "name": "Aqua Jet",
+        "maxPP": 20,
+        "basePower": 40,
+        "type": "WATER"
+      },
+      {
+        "name": "Ice Punch",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "ICE"
+      },
+      {
+        "name": "Bubble Beam",
+        "maxPP": 20,
+        "basePower": 65,
+        "type": "WATER"
+      }
+    ]
+  },
+  {
+    "name": "Sudowoodo",
+    "type": [
+      "ROCK"
+    ],
+    "maxHp": 240,
+    "att": 99,
+    "def": 135,
+    "spd": 92,
+    "moves": [
+      {
+        "name": "Wood Hammer",
+        "maxPP": 15,
+        "basePower": 120,
+        "type": "GRASS"
+      },
+      {
+        "name": "Rock Slide",
+        "maxPP": 10,
+        "basePower": 75,
+        "type": "ROCK"
+      },
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Sucker Punch",
+        "maxPP": 5,
+        "basePower": 70,
+        "type": "DARK"
+      }
+    ]
+  },
+  {
+    "name": "Politoed",
+    "type": [
+      "WATER"
+    ],
+    "maxHp": 243,
+    "att": 146,
+    "def": 163,
+    "spd": 104,
+    "moves": [
+      {
+        "name": "Hyper Voice",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "NORMAL"
+      },
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Water Pulse",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "WATER"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Jumpluff",
+    "type": [
+      "GRASS",
+      "FLYING"
+    ],
+    "maxHp": 256,
+    "att": 91,
+    "def": 115,
+    "spd": 127,
+    "moves": [
+      {
+        "name": "Aerial Ace",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "FLYING"
+      },
+      {
+        "name": "Fairy Wind",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "FAIRY"
+      },
+      {
+        "name": "Bullet Seed",
+        "maxPP": 30,
+        "basePower": 25,
+        "type": "GRASS"
+      },
+      {
+        "name": "Headbutt",
+        "maxPP": 25,
+        "basePower": 70,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Ariados",
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "maxHp": 193,
+    "att": 128,
+    "def": 115,
+    "spd": 123,
+    "moves": [
+      {
+        "name": "Pin Missile",
+        "maxPP": 20,
+        "basePower": 25,
+        "type": "BUG"
+      },
+      {
+        "name": "Poison Jab",
+        "maxPP": 20,
+        "basePower": 80,
+        "type": "POISON"
+      },
+      {
+        "name": "Bug Bite",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "BUG"
+      },
+      {
+        "name": "Shadow Sneak",
+        "maxPP": 30,
+        "basePower": 40,
+        "type": "GHOST"
+      }
+    ]
+  },
+  {
+    "name": "Crobat",
+    "type": [
+      "POISON",
+      "FLYING"
+    ],
+    "maxHp": 182,
+    "att": 90,
+    "def": 140,
+    "spd": 72,
+    "moves": [
+      {
+        "name": "Cross Poison",
+        "maxPP": 20,
+        "basePower": 70,
+        "type": "POISON"
+      },
+      {
+        "name": "Air Slash",
+        "maxPP": 15,
+        "basePower": 75,
+        "type": "FLYING"
+      },
+      {
+        "name": "Brave Bird",
+        "maxPP": 15,
+        "basePower": 120,
+        "type": "FLYING"
+      },
+      {
+        "name": "Bite",
+        "maxPP": 25,
+        "basePower": 60,
+        "type": "DARK"
+      }
+    ]
+  },
+  {
+    "name": "Quagsire",
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "maxHp": 174,
+    "att": 90,
+    "def": 110,
+    "spd": 122,
+    "moves": [
+      {
+        "name": "Earthquake",
+        "maxPP": 10,
+        "basePower": 100,
+        "type": "GROUND"
+      },
+      {
+        "name": "Waterfall",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "WATER"
+      },
+      {
+        "name": "Mud Shot",
+        "maxPP": 15,
+        "basePower": 55,
+        "type": "GROUND"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Espeon",
+    "type": [
+      "PSYCHIC"
+    ],
+    "maxHp": 212,
+    "att": 151,
+    "def": 110,
+    "spd": 130,
+    "moves": [
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Shadow Ball",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "GHOST"
+      },
+      {
+        "name": "Dazzling Gleam",
+        "maxPP": 10,
+        "basePower": 80,
+        "type": "FAIRY"
+      },
+      {
+        "name": "Future Sight",
+        "maxPP": 10,
+        "basePower": 120,
+        "type": "PSYCHIC"
+      }
+    ]
+  },
+  {
+    "name": "Umbreon",
+    "type": [
+      "DARK"
+    ],
+    "maxHp": 232,
+    "att": 142,
+    "def": 137,
+    "spd": 72,
+    "moves": [
+      {
+        "name": "Dark Pulse",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Crunch",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "DARK"
+      },
+      {
+        "name": "Feint Attack",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "DARK"
+      },
+      {
+        "name": "Body Slam",
+        "maxPP": 15,
+        "basePower": 85,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "name": "Slowking",
+    "type": [
+      "WATER",
+      "PSYCHIC"
+    ],
+    "maxHp": 238,
+    "att": 111,
+    "def": 119,
+    "spd": 144,
+    "moves": [
+      {
+        "name": "Surf",
+        "maxPP": 15,
+        "basePower": 90,
+        "type": "WATER"
+      },
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Ice Beam",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "ICE"
+      },
+      {
+        "name": "Future Sight",
+        "maxPP": 10,
+        "basePower": 120,
+        "type": "PSYCHIC"
+      }
+    ]
+  },
+  {
+    "name": "Gardevoir",
+    "type": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "maxHp": 195,
+    "att": 127,
+    "def": 135,
+    "spd": 88,
+    "moves": [
+      {
+        "name": "Moonblast",
+        "maxPP": 15,
+        "basePower": 95,
+        "type": "FAIRY"
+      },
+      {
+        "name": "Psychic",
+        "maxPP": 10,
+        "basePower": 90,
+        "type": "PSYCHIC"
+      },
+      {
+        "name": "Shadow Ball",
+        "maxPP": 15,
+        "basePower": 80,
+        "type": "GHOST"
+      },
+      {
+        "name": "Magical Leaf",
+        "maxPP": 20,
+        "basePower": 60,
+        "type": "GRASS"
+      }
+    ]
+  }
+]
