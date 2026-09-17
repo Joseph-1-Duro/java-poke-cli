@@ -83,6 +83,8 @@ class PokemonTest {
     @Test
     @DisplayName("Primary type invalidation")
     void throwErrorForInvalidPrimaryType() {
-        new Pokemon("Zubat", null, Type.POISON, 40, 12, 12, 44);
+        assertThrows(IllegalArgumentException.class, () -> {
+            new Pokemon("Zubat", null, Type.POISON, 40, 12, 12, 44);
+        }, "Primary type cannot be null");
     }
 }

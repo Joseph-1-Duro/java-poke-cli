@@ -1,23 +1,61 @@
 # poke-cli Learning Checklist
 
-Assessment of current codebase (JDK 26, JUnit 6, Jackson). Items reflect teaching-mode
+Assessment of current codebase (JDK 26, JUnit 6, Jackson 2). Items reflect teaching-mode
+
 # ⏸️ WHEN YOU'RE BACK — resume in this order
 
-1. **Fix `Move.basePower`** (5 min): constructor validates it but never assigns it.
-   Add the missing assignment, then write a test: create a Move, assert `getBasePower()`
-   equals what you passed in. Without this, ALL JSON move powers are silently 0.
-2. **Finish `DamageCalculator`** — it currently doesn't compile (missing return).
-   Decide first: does it RETURN an int damage value, and is it still `static`?
-   (see 🚧 WIP section below for the Socratic questions)
-3. **Test suite green**: run `JAVA_HOME=~/.jdks/openjdk-26.0.2.1 mvn test`
-   (shell's default java is 25 — must point at JDK 26 or compile fails with
-   "invalid target release: 26").
-4. **Write the ONE loader** (Jackson): pokemon.json → `Pokemon` + 4 `Move`s each.
-   Think about the name/location question in "🎯 Your next Java work" before coding.
-5. Then: menu enum (kill magic numbers), extract menu from `Game`, null-type1 test.
+Build status (verified by running the suite): ✅ compiles, ✅ **8/8 tests green** —
+`throwErrorForInvalidPrimaryType` fixed by you (now uses `assertThrows`).
 
-Build status at save time: ❌ compile error in `battle/DamageCalculator.java` only;
-model + tests are clean (6/6 passing when that file is out of the way).
+1. **Implement the loader** in the empty `PokemonLoader` (org.example.data): Jackson 2
+   `ObjectMapper` → read `pokemon.json` → build `Pokemon` + 4 `Move`s each. See "Your next
+   Java work" below for the Socratic prompts (String→Type conversion, fail-fast on unknown
+   types).
+2. **Decide loader identity**: `PokemonFactory` (org.example.factory) is also empty — does
+   "Factory" promise something a file-reader doesn't deliver? Merge or delete one.
+## 🔄 Loader WIP (2026-09-17) — `PokemonLoader` v1 written by you
+
+What's DONE (verified by reading your code):
+- [x] Shape fixed: returns `List<Pokemon>`, uses `TypeReference<List<Pokemon>>` to defeat
+      type erasure — the 81-entry array maps as a list (correct, idiomatic Jackson 2)
+- [x] Classpath read via `getResourceAsStream` (works inside the jar — right choice)
+- [x] try-with-resources on the stream
+- [x] `ObjectMapper` as `private final` field (not recreated per call) ✅
+
+Open review items (from code review — yours to fix, in order):
+- [ ] **Failure policy**: both error paths return `new ArrayList<>()` — an empty list is a
+      *valid-looking lie* (worse than null: silent, no crash, no clue). Replace with: throw
+      when the stream is null (missing resource ≠ IOException), and either declare
+      `throws IOException` (simple) or wrap in a small custom exception naming the file +
+      chained cause (upgrade when constructor-deserialization errors get ugly).
+- [ ] **Remove `System.err.println`** — printing is a presentation concern; it belongs in
+      `Game`/`Main`, not a data class. The loader REPORTS (throws), the edge layer DECIDES
+      how to tell the user.
+- [ ] **Not tested yet, will fail**: `Pokemon` has no no-arg constructor, so Jackson can't
+      map JSON→Pokemon yet. Write the test FIRST (assert 81 entries, Venusaur move 1 =
+      Razor Leaf), watch it fail, then research **constructor-based deserialization**
+      (`@JsonCreator`/`@JsonProperty` on `Pokemon` and `Move`) — your fail-fast constructors
+      then become the deserialization gate for free.
+- [ ] **Naming**: `loadPokemon` returns many — rename to say so once the shape is final.
+- [ ] **String→Type bridge**: unknown type string in JSON (e.g. "SOUND") — decide the
+      fail-fast behavior (test it).
+
+3. Then: menu enum (kill magic numbers), extract menu from `Game`, `Battle` class design.
+
+## 🆕 pom.xml cleaned up (2026-09-17, config only — not Java, so agent did this)
+- [x] Removed the inert Jackson 3 `tools.jackson` `dependencyManagement` block (a BOM with
+      no matching declared dependencies = dead weight / misleading intent)
+- [x] Kept single Jackson 2 dependency: `com.fasterxml.jackson.core:jackson-databind:2.18.2`
+      (latest stable 2.x; user's "2.8" was a typo — 2.8.x is 2016-era)
+- [x] Removed stale `<!-- Use the latest stable version -->` comment; added an accurate one
+- [ ] Yours to consider later: if you ever want Jackson's constructor parameter-name
+      detection, add `maven-compiler-plugin` with the `-parameters` flag — research first
+
+Progress since last save (all verified):
+- [x] `Move.basePower` assigned in constructor ✅
+- [x] `DamageCalculator` compiles and returns `int` damage; `getSTAB()` extracted ✅
+- [x] `throwErrorForInvalidPrimaryType` NOW correctly uses `assertThrows` — suite is 8/8 ✅
+- [x] pom.xml Jackson configuration cleaned (see above) ✅
 
 ---
 
@@ -39,7 +77,8 @@ review from AGENTS.md — no code is written for you; each unchecked item is you
 
 ### 1. Fail-fast constructor ✅ DONE
 - [x] Throw `IllegalArgumentException` when `type1` is `null` — done, plus name and all four stats validated (nice: you went beyond the ask)
-- [ ] Write a test using `assertThrows` proving the constructor rejects a null **primary type** and **non-positive stats** (your current test only covers the name)
+- [ ] Write a test using `assertThrows` proving the constructor rejects a null **primary type** —
+  DONE (verified: suite is 8/8 green)
 - [x] Validate `maxHp > 0` (and att/def/spd) at construction
 
 ### 2. Naming ✅ DONE
@@ -65,25 +104,16 @@ review from AGENTS.md — no code is written for you; each unchecked item is you
 ### 7. Test quality ✅ DONE (mostly)
 - [x] Removed the never-failing `zeroHPCreation` test; replaced with a real `assertThrows` test
   for invalid names (verified: 6/6 tests pass)
-- [ ] Still missing: `assertThrows` tests for null `type1` and zero/negative stats (see item 1)
+- [x] Negative/zero-stat `assertThrows` tests written and passing
+- [x] Still missing was: a *passing* `assertThrows` test for null `type1` — DONE, 8/8 green ✅
 
-## 🚧 Work in progress — currently breaks the build
-
-### DamageCalculator (new `battle` package) — DOES NOT COMPILE
-- [ ] Fix "missing return statement" at line 9 (the method body computes three locals and stops)
-- [ ] Concept conflict: the method is named `calculateDamage` (implies returning a value)
-  but declared `void`. Which should it be? Decide *who consumes the result* and *how the battle
-  learns about it* before writing more.
-- [ ] Three locals (`attStat`, `defStat`, `power`) are assigned but never used — the compiler
-  is telling you the algorithm isn't written yet.
-- [ ] Socratic: you made it `static` — a stateless utility. Is that the right model, or will damage
-  calculation need state (rng rolls, type-effectiveness table)? Also: does `battle` reaching into
-  `model` getters (`getAtt`, `getDef`) smell like feature envy? Consider whether the calculation
-  belongs closer to the data.
-
-> NOTE: because this file doesn't compile, the whole suite cannot run until it's finished.
-> Temporarily setting it aside was how the 6 model tests were verified — don't merge/commit
-> with a broken build.
+## ✅ Resolved (was WIP) — DamageCalculator now compiles
+- [x] "Missing return" fixed — method returns `(int) Math.floor(rawDamage)`
+- [x] Naming/void conflict resolved: returns an `int` damage value
+- [x] Three locals now used: power × attStat / defStat / 50 + 2, × STAB, floored
+- [x] Kept `static` + stateless for now — revisit when you add crit rolls / type chart
+- [ ] Open (carried): feature-envy question — should damage calc live nearer to the data,
+  or in a `Battle` that orchestrates? Decide when you flesh out the empty `Battle` class.
 
 ## 🧭 Design decisions made
 
@@ -100,11 +130,16 @@ review from AGENTS.md — no code is written for you; each unchecked item is you
   with Pokémon entries referencing moves by NAME — still one file, one loader.
 
 ## 🎯 Your next Java work (no code from me — this is the learning part)
-- [ ] **BUG first:** `Move.basePower` is never assigned in your constructor (`this.basePower = basePower` is missing) — `getBasePower()` always returns 0 and `DamageCalculator` would compute zero damage no matter what the JSON says. Fix + test.
-- [ ] ONE loader class using Jackson: read the array, map each entry to `Pokemon` + its 4 `Move`s. Note: the JSON doesn't eliminate factory/loader code — it only removes the *data* duplication. You still write the object construction.
-- [ ] Socratic: should the loader be a `PokemonRepository`, a `PokemonLoader`, or a `PokemonFactory`? What does the name promise? Where does it live (model? a new `data` package?) and why?
+- [x] **BUG:** `Move.basePower` now assigned in constructor — DONE
+- [x] **Test:** `throwErrorForInvalidPrimaryType` now uses `assertThrows` — DONE (8/8 green)
+- [ ] ONE loader class using Jackson: read the array, map each entry to `Pokemon` + its 4 `Move`s.
+  Note: the JSON doesn't eliminate factory/loader code — it only removes the *data* duplication.
+  You still write the object construction. `PokemonFactory` scaffold exists — is that the right
+  name? What does "Factory" promise vs. what a file-reading class actually does?
+- [ ] Where should the loader live — model? A new `data` or `factory` package? Why?
 - [ ] Socratic: `Type` in JSON arrives as a String — who converts it to your `Type` enum, and what happens if the file contains a type your enum doesn't have (fail-fast again)?
-- [ ] Then finish `DamageCalculator` (still doesn't compile — see WIP section above).
+- [ ] Socratic: `Pokemon` has `getType()` returning the list — but which type does STAB compare
+  against for a dual-type? Test the STAB logic before trusting it.
 
 ## 🧭 Open design questions
 - Where does type-effectiveness data live — in the `Type` enum, in `Move`, or in `Battle`?
